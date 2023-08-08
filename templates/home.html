@@ -1,0 +1,179 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+ 
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+  <title>Home Page</title>
+  <style>
+    body{
+        overflow-x : hidden
+    }
+    .cardmain{
+        padding: 1.5rem
+    }
+    .table{
+        margin-left:1rem
+    }
+    
+    .row1{
+        padding-left: 1rem
+    }
+</style>
+
+</head>
+ 
+<body>
+  <nav class="navbar bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand  font-weight-bolder text-white ">Home - Page</a>
+      <a href="{% url 'logout' %}" class="btn btn-primary justify-content-center">Logout</a>
+      </form>
+    </div>
+  </nav><br><br>
+
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-3 cols-xl-4 cardmain">
+        <div class="card" style="width: 18rem;">
+            <img src="{{ imgs.pimage.url }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Manali</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 cols-xl-4 cardmain">
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/manali.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jammu & Kashmir</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 cols-xl-4 cardmain">
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/manali.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sikkim</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 cols-xl-4 cardmain">
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'img/manali.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bhuttan</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div><br> 
+  <h2 class="font-weight-bolder mt-5 mb-5" style="text-align:center">Place to visit in India</h2>
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">Agra</h2>
+      <p>If there was just one symbol to represent all of India, it would be the Taj Mahal. The monument inspires
+        millions of tourists to make the trip to Agra every year, waking up before dawn to see magnificent structure
+        radiate at sunrise. But Agra tops the list of the best places to visit in India for reasons that go beyond
+        India's most famous attraction.
+ 
+        The city in Uttar Pradesh is chock-full of marvelous Mughal monuments, like Itimad-ud-Daulah's Tomb and Akbar's
+        Mausoleum, decked out in hypnotic inlaid marble designs from top to bottom. Plus, tourists can also see another
+        UNESCO World Heritage Site: the Agra Fort. With so many wonders in just one place, Agra is a must-visit city for
+        tourists in India.</p>
+    </div>
+    <div class="col-12">
+      <h2 class="text-center">Mumbai</h2>
+ 
+      <p>Want to see a more cosmopolitan side of India? Head to the energetic, coastal city of Mumbai–home to
+        ultra-wealthy entrepreneurs and the hottest Bollywood actors. Tourists are never far from five-star hotels or
+        gourmet restaurants in this luxe city. And even if those activities are out of budget, a cruise down the beloved
+        Marine Drive will make you feel like royalty as you catch a glimpse of the scenic coast and glamorous Art Deco
+        buildings.
+        You can also see a more authentic, local side of Mumbai in the bustling "Thieves Market" or at the Churchgate
+        railway station, where hundreds of thousands of homemade lunches are packed up for delivery to the city's office
+        workers every day.
+        Make sure you devote a day to checking out Sanjay Gandhi National Park and exploring the 2,000-year-old Kanheri
+        Cave carvings.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h2 class="text-center">Coorg</h2>
+      <p>Coorg, officially called Kodagu, is the most sought after and popular hill station of Karnataka. Lying serenely
+        amidst high mountains, Coorg’s landscape stays misty throughout the year. The aboriginals of the place are
+        Kodavas. Apart from Kannada, the other two main languages of this hill station are Kodagu and Kodava.
+ 
+        The best time to visit Kodagu is between October to May and the peak season for this hill station is within
+        February to May. Kodagu is the largest producer of Coffee in India. Also, it is one of the places with highest
+        rainfall across the nation. Undulating hills covered in lush green forests and a landscape dotted with coffee
+        plantations, tea gardens and orange groves, this hill station has breathtakingly stunning scenic beauty.
+ 
+        The popular tourist attractions in Kodagu include Bhagamandala, Talakaveri, Nisargadhama, Dubare, Abbey Falls,
+        Iruppu Falls and Nagarahole National Park. Pushpagiri and Brahmagiri in Coorg are ideal for trekking. Read more
+        about Coorg</p>
+ 
+ 
+    </div>
+    <div class="col-12">
+      <h2 class="text-center">Kerala</h2>
+ 
+      <p>Kerala, a small beautiful state situated in the southwest corner of India is one of the most popular tourist
+        destinations in the country. Kerala has 14 districts with Thiruvananthapuram (Trivandrum) as the capital city
+        which is situated in the southwestern coast of Kerala.
+ 
+        The Port city Kochi and Kozhikode are the two major cities in Kerala. Kerala has three airports which provide
+        international as well as domestic connections. The area of the state is 38,863 square kilometer with a
+        population of 31.8 million.
+ 
+        Languages spoken are Malayalam, Hindi and English. Kerala with a literacy rate of 91.5% stands first among the
+        Indian states.
+ 
+        Religion in Kerala is a mixture of different faiths; Hinduism, Islam and Christianity being the most significant
+        among them.
+ 
+        Rice and Tapioca are the important food crops in Kerala. Kerala is a major producer of coconut, rubber, pepper,
+        cardamom, cashew, coffee, tea, ginger and cocoa. Tree spices like cinnamon and cloves are also cultivated here.
+ 
+        Tourism in Kerala is a fast growing industry which provides job opportunities for so many local people. Every
+        year thousands of tourists are coming to see the serene beauty of this small peaceful land.
+ 
+        Kerala has unique and wonderful art forms, culture and festivals. Kathakali, a classical dance form of Kerala
+        attracts so many tourists. Kalaripayattu, the martial art form of Kerala is also well known.
+ 
+        Kerala has lots of renowned festivals. Be it the state festival Onam or the temple festival Pooram the people in
+        God’s own country celebrates all the festivals with great passion and spirit.
+ 
+        Kerala is the land of Ayurveda which is a unique and indispensable branch of medicine. Ayurveda not only
+        refreshes your body but also refreshes your soul. For getting Ayurvedic treatment the period between April to
+        August is considered as the best time.</p>
+ 
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+ 
+</html>
+    
